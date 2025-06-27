@@ -1,0 +1,13 @@
+# Arquivos sensíveis
+.env
+*.key
+*.pem
+
+# Banco de dados local
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
