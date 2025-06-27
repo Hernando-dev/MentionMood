@@ -1,0 +1,15 @@
+
+---
+
+## **Passos para Subir no GitHub**
+
+1. **Crie um repositório novo** no GitHub (ex: `marketing-sentiment-analysis`).
+
+2. **Inicialize localmente e envie:**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit: projeto de análise de sentimentos"
+   git branch -M main
+   git remote add origin https://github.com/seu-usuario/marketing-sentiment-analysis.git
+   git push -u origin main
