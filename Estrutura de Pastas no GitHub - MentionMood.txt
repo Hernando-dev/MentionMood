@@ -1,0 +1,24 @@
+📂 marketing-sentiment-analysis/
+├── 📂 data/                   # Dados brutos e processados
+│   ├── 📄 tweets_raw.csv      # Tweets coletados (opcional)
+│   ├── 📄 tweets_processed.csv# Dados limpos + sentimentos
+│   └── 📄 geocache.db         # Cache de geolocalização
+│
+├── 📂 scripts/
+│   ├── 📄 twitter_stream.py   # Coleta em tempo real
+│   ├── 📄 sentiment_analysis.py # NLP e classificação
+│   ├── 📄 database.py         # Conexão SQLite/MongoDB
+│   └── 📄 geolocation.py      # Geocodificação e cache
+│
+├── 📂 dashboard/
+│   ├── 📄 app.py              # Código Streamlit
+│   ├── 📄 assets/             # Imagens/logo (opcional)
+│   └── 📄 requirements.txt    # Dependências do dashboard
+│
+├── 📂 docs/                   # Documentação
+│   ├── 📄 setup_instructions.md # Como configurar
+│   └── 📄 api_credentials.md  # Exemplo de configuração de chaves
+│
+├── 📄 .gitignore             # Ignorar arquivos sensíveis (ex: .env)
+├── 📄 requirements.txt       # Dependências principais
+└── 📄 README.md              # Descrição do projeto
